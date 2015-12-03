@@ -75,6 +75,7 @@
       ],
       'dependencies': [
         'g729',
+        '<(DEPTH)/third_party/webrtc/common_audio/common_audio.gyp:common_audio',
       ],
       'sources': [
         'src/coder.c',
@@ -88,6 +89,7 @@
       ],
       'dependencies': [
         'g729',
+        '<(DEPTH)/third_party/webrtc/common_audio/common_audio.gyp:common_audio',
       ],
       'sources': [
         'src/decoder.c',
@@ -101,6 +103,7 @@
       ],
       'dependencies': [
         'g729',
+        '<(DEPTH)/third_party/webrtc/common_audio/common_audio.gyp:common_audio',
       ],
       'sources': [
         'src/autocorr.c',
